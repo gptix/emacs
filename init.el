@@ -23,8 +23,10 @@
   '(;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
 
-    slime
+;;    slime
 
+    sly
+    
     intero
 
     ;; key bindings and code colorization for Clojure
