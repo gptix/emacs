@@ -10,6 +10,9 @@
 ;; Show line numbers
 (global-linum-mode)
 
+;; Wrap at window.
+(setq line-move-visual t)
+
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
 ;; (when (fboundp 'tool-bar-mode)
@@ -67,3 +70,8 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+(setq TeX-save-query nil)
